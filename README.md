@@ -13,7 +13,7 @@ This project analyzes customer reviews of car rental services to identify sentim
 - IBM Cloud Object Storage
 - Pandas, Matplotlib, Seaborn
 - Boto3 for IBM COS access
-- Jupyter/VSCode/Any IDE
+- VSCode/Any IDE
 
 ## Project Structure
 project/
@@ -21,17 +21,7 @@ project/
 ├── feedback_analysis.py  # Main analysis script
 ├── .env.example          # Template for environment variables
 
-## Setup Instructions
 
-### 1. Clone the repo
-git clone https://github.com/your-username/car-rental-feedback-analyzer.git
-cd car-rental-feedback-analyzer
-
-### 2. Install requirements
-pip install -r requirements.txt
-
-### 3. Configure .env
-Create a `.env` file using the `.env.example` template:
 
 COS_ENDPOINT=https://s3.us-south.cloud-object-storage.appdomain.cloud
 COS_API_KEY=your_ibm_api_key
@@ -64,8 +54,6 @@ Outputs:
 
 ## Author
 Vedansh Patel  
-Final Year Project | IBM watsonx.ai + Python
+IBM GenAI Project | IBM watsonx.ai + Python
 
-## License
-This project is licensed under the MIT License.
-"# car-rental-feedback-analyzer" 
+
