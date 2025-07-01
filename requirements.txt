@@ -1,0 +1,5 @@
+ibm-cos-sdk
+python-dotenv
+pandas
+matplotlib
+seaborn
